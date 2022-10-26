@@ -123,4 +123,3 @@ num_b = 2
 string_numbers = str(num_a) + str(num_b)
 
 print(f"{string_numbers}")
-

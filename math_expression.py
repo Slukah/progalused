@@ -70,7 +70,7 @@ num_c = math.sqrt(num_a ** 2 + num_b ** 2)
 
 print(f"{num_c}")
 
-# 10. Calculate hypotenuse length
+# 10. Calculate cathetus length
 
 num_c = 10
 
@@ -82,11 +82,11 @@ print(f"{num_b}")
 
 # 11. Time converter
 
-seconds = 3600
-
+seconds = 8587376
 minutes = seconds // 60
-
+seconds = seconds % 60
 hours = minutes // 60
+minutes = minutes % 60
 
 print(f"{seconds}")
 

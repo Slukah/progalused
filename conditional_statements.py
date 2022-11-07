@@ -161,5 +161,3 @@ def hundred(num_a: int) -> int:
 
 print(hundred(45))
 print(hundred(110))
-
-#lõpp

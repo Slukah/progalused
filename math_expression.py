@@ -52,9 +52,9 @@
 #
 # # 7. Area of an equilateral triangle
 #
-# side_length = num_a
+#side_length = num_a
 #
-# triangle_area = round((side_length ** 2) / 2)
+#triangle_area2 = round(math.sqrt(3) / 4 * side_length ** 2)
 #
 # print(f"{side_length} ** {2} / 2 = {triangle_area}")
 #

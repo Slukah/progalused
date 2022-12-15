@@ -1,3 +1,24 @@
+# ====================================================================
+# Ülesanne
+# Autor:
+# Kuupäev:
+# ====================================================================
+# Eestis kasutatav isikukood koosneb üheteistkümnest numbrist. Tutvu isikukoodi struktuuriga
+# Kirjuta programm, mis küsib kasutajalt isikukoodi ja väljastab ekraanile isikukoodi
+# omaniku sünnikuupäeva, soo ja vanuse. Vanust võib leida kas umbkaudselt (lähtudes lihtsalt
+# käesolevast aastanumbrist ja isikukoodist saadud sünniaastast) või kasutades moodulit
+# datetime - https://www.w3schools.com/python/python_datetime.asp.
+# Isikukoodi käsitlege kui sümbolite kogumit ehk sõnet (kuigi see koosneb numbritest), analüüsimiseks kasutage
+# sõneoperatsioone.
+# Samas kui meil on vaja seal olevate arvudega arvutada, peame tegema
+# tüübiteisenduse: sõnena oleva arvu peame teisendama arvuks, praegusel juhul täisarvuks
+# (funktsioon "int()").
+#
+# Vastavalt toodud isikukoodi tutvustavale artiklile võrrelge esimest kümmet numbrit ja
+# viimast numbrit (nn. kontrollnumbrit), et teha selgeks, kas  isikukood on üldse kehtiv.
+# ====================================================================
+
+
 months = ["jaanuar", "veebruar", "märts", "aprill", "mai", "juuni", "juuli", "august", "september", "oktoober",
           "november", "detsember"]
 Genders = ["mees", "naine", "mees", "naine", "mees", "naine", "mees", "naine"]

@@ -2,6 +2,7 @@
 from abc import ABC, abstractmethod
 import math
 
+
 class Shape(ABC):
     """General shape class."""
 
@@ -98,10 +99,10 @@ class Square(Shape):
         pass
 
 
-# class Rectangle(Shape):
+#class Rectangle(Shape):
 
 
-class Paint:
+   class Paint:
     """The main program to manipulate the shapes."""
 
     def __init__(self):

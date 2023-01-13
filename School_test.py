@@ -63,7 +63,7 @@ if __name__ == '__main__':
     print("Students ordered by average grade:")
     print(f"{'Student':>15}: avg grade")
     print("-" * 30)
-    for student in school.get_students_ordered_by_average_grade():
+    for student in school.get_students():
         print(f"{student.name:>15}: {student.get_average_grade():.2f}")
 
     print()
